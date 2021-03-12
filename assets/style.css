@@ -1,0 +1,131 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+*, body {
+    padding: 0;
+    margin: 0;
+    background-image: url(/assets/img/bg.png) !important;
+    background-repeat: repeat-y;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(/assets/img/bg.png) !important;
+    background-repeat: repeat-y;
+}
+
+.mr-50 {
+    margin-left: 50px;
+}
+
+.nav-item .nav-link::after{
+    border-bottom: #5EA8CD 3px;
+}
+
+.card1:hover {
+    background-color: #D9F1FD;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(175, 175, 175);
+}
+
+.container-1 {
+    width: 80%;
+    background:blue;
+    position: center;
+}
+
+.home h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 65px;
+    text-align: left;
+    color: #000000;
+}
+
+.home h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 82px;
+    text-align: left;
+    color: #000000;
+}
+
+.home p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+.pb-120 {
+    padding-bottom: 120px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pt-70 {
+    padding-top: 70px;
+}
+html,
+body,
+header,
+#bg {
+    background: url(/assets/img/bg.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.me img{
+    width: 360px;
+}
+
+.container-ikon {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-container {
+    display: flex;
+}
+  
+.flex-container div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#about, #about2, #about3 {
+    background-color: #5EA8CD;
+}
+
+#contact, #contact2 {
+    background-color: #2C88B6;
+  
+}
+.form-group2 .label {
+    color: white;
+}
+
+#home {
+    background-image: url(/assets/img/bg.png)!important;
+}
+
+p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    color: #000000;
+}
+
+h4 {
+    font-weight: bold!important;
+    font-size: 60px;
+    line-height: 170%;
+    color: #405982!important;
+}
