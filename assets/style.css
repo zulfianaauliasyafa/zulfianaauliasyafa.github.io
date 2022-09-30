@@ -1,5 +1,9 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 
+html{
+    scroll-behavior: smooth;
+}
+
 *, body {
     padding: 0;
     margin: 0;
@@ -17,14 +21,11 @@ body{
     margin-left: 50px;
 }
 
-.nav-item .nav-link::after{
-    border-bottom: #5EA8CD 3px;
-}
-
 .card1:hover {
     background-color: #D9F1FD;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgb(175, 175, 175);
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.05);
+    zoom: 103%;
 }
 
 .container-1 {
@@ -128,4 +129,24 @@ h4 {
     font-size: 60px;
     line-height: 170%;
     color: #405982!important;
+}
+#home, #project {
+    background-color: #FAFAFA;
+}
+
+.up {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 100%;
+    bottom: 40px;
+    right: 50px;
+
+    text-decoration: none;
+    text-align:center;
+    line-height: 50px;
+    color: #405982;
+    font-size: 20px;
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.1);
 }
